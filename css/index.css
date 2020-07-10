@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid pink !important;
 }
 
 html, body {
@@ -60,6 +61,24 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.lambda-logo {
+    display: flex;
+    width: 12vw;
+}
+
+.header-nav {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 p {
