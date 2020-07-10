@@ -49,7 +49,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid pink !important;
 }
 
 html, body {
