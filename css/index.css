@@ -67,7 +67,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 1%;
-    margin-left: 5%;
+    margin-left: 4vw;
 }
 
 .lambda-logo {
@@ -76,9 +76,18 @@ header {
 }
 
 .header-nav {
-    width: 50vw;
+    width: 45vw;
     display: flex;
     justify-content: space-evenly;
+}
+
+.header-anchor {
+    font: black !important;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
 }
 
 p {
@@ -123,7 +132,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -163,3 +172,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+div.box1 { background: teal; }
+div.box2 { background: gold; }
+div.box3 { background: cadetblue; }
+div.box4 { background: coral; }
+div.box5 { background: crimson; }
+div.box6 { background: forestgreen; }
+div.box7 { background: darkorchid; }
+div.box8 { background: hotpink; }
+div.box9 { background: indigo; }
+div.box10 { background: dodgerblue; }
